@@ -1,0 +1,27 @@
+{
+  "name": "sk5short-desktop",
+  "version": "1.0.0",
+  "description": "make short link offline",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sk5s/sk5short-desktop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sk5s/sk5short-desktop/issues"
+  },
+  "homepage": "https://github.com/sk5s/sk5short-desktop#readme",
+  "devDependencies": {
+    "electron": "^13.2.1",
+    "electron-builder": "^22.11.7"
+  }
+}
