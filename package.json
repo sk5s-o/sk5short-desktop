@@ -1,6 +1,6 @@
 {
   "name": "sk5short-desktop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "make short link offline",
   "main": "main.js",
   "scripts": {
